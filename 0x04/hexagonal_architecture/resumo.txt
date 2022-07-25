@@ -1,0 +1,22 @@
+A arquitetura hexagonal é tomada como um guia, e a partir dela,
+novos conceitos arquitetônicos foram criados com informações mais granulares na organização do código (diretórios, camadas),
+como exemplos temos a arquitetura Onion, de Jeffrey Palermo, e a Clear Architecture, de Robert C. Martin (Uncle Bob).
+Ambos se referem ao padrão criado por Alistair Cockburn.
+
+Mesmo que você já tenha escolhido seguir a idéia de Jeffrey ou Uncle Bob,
+recomendo estudar a arquitetura hexagonal para entender o conceito de isolamento do domínio e a comunicação com seus respectivos atores.
+Depois disso, você verá que será mais fácil entender as idéias de outros autores que criaram novos conceitos com base nessa idéia inicial.
+
+Como pontos fortes da utilização desta arquitetura, podemos enumerar:
+
+    Solução de Serviços Externos Independentes
+    Possibilita adiar algumas decisões técnicas
+    Criação e substituição de adaptadores
+    Fácil de testar a aplicação
+    Tecnologias fáceis de trocar
+
+Também temos alguns aspectos negativos no uso desta arquitetura hexagonal, que são
+
+    Complexidade adicional (construção de mais camadas)
+    Custo de criação e manutenção
+    Não há orientação sobre como organizar o código (diretórios, camadas)
